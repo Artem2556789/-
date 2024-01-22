@@ -1,0 +1,62 @@
+body {
+    background-color: #000;
+    background-image: url ("https://top-fon.com/uploads/posts/2023-01/1675195674_top-fon-com-p-fon-dlya-prezentatsii-biznes-minimalizm-139.jpg");
+   }
+* {box-sizing: border-box}
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #c93232;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #ca2f2f;
+  margin-bottom: 25px;
+}
+button {
+  background-color: #4CAF50;
+  color: rgb(32, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
